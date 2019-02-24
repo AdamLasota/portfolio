@@ -1,0 +1,747 @@
+@media all and (max-width:1350px){
+
+	.headsContainer{
+		width:90%;
+	}
+	.logoName{
+		bottom:-10%;
+		font-size:2.5vw;
+	}
+	.discriptionswebSample h3 {
+    font-size: 17px;
+	}
+	.topicSpecialBox{
+		font-size:1.5vw;
+	}
+	.discriptionsSpecialBox{
+		font-size:1.2vw;
+	}
+	.discriptionswebSample p {
+    line-height: initial;
+	}
+	.aboutMeSection{
+		height:auto;
+	}
+	.closeButtonImage,.rightButtonImage,.leftButtonImage{
+		font-size:4vw;
+	}
+	.closeButtonMiniInfo{
+		display:none;
+	}
+}
+@media all and (min-width:992px) and (max-width:1200px){
+	.topic{
+		width:20%;
+	}	
+	.topicWeb,.topicWebSample{
+		max-width:35% !important;
+		width:35%;
+	}
+	.discriptionsSpecialBox {
+		margin-bottom: 60%;
+		font-size:1.3vw;
+	}
+	.discriptionswebSample{
+		font-size:12px;
+	}
+	.specialLine{
+		margin-left:5%;
+		width:69%;
+	}
+	.specialLine2{
+		width:69%;
+	}
+	.specialLine2 span {
+		font-size:1.5vw;
+	}
+	.showInfo{
+		top:33%;
+	}
+	.navigationFixedWeb ol,.navigationFixedGraphic ol,.navigationFixedAboutMe ol{
+		padding-left:15px;
+	}
+	.topic h2,.topicWeb h2,.topicWebSample h2,.topicGraphic h2,.topicGraphicSample h2{
+		font-size:2.3vw;
+	}
+	.topicGraphicSample h3{
+		right:0%;
+	}
+	.specialLineGraphic span{
+		font-size:1.5vw;
+	}
+	.contactDetails span {
+		font-size:3vw;
+	}
+	.contactDetails a {
+		font-size:1.4vw;
+	}
+	.graphicsDiscriptions p,.webDiscriptions p,.webSampleDiscriptions p,.contactDiscriptions p,.aboutMeDiscription p {
+	font-size:16px;
+	}
+	.graphicsDiscriptions  p:first-letter,.webDiscriptions  p:first-letter,.webSampleDiscriptions p:first-letter,.aboutMeDiscription p:first-letter,.contactDiscriptions p:first-letter{
+	font-size:20px;
+	}
+	.graphicsDiscriptions p span,.webDiscriptions p span,.webDiscriptions span,.contactDiscriptions span {
+	font-size:18px;
+	}
+	.closeButtonMiniInfo{
+		display:none;
+	}
+}
+@media all and (min-width:768px) and (max-width:991px){
+	.topic{
+		width:20%;
+	}
+	.topicWeb,.topicWebSample{
+		max-width:35%;
+		width:35%;
+	}
+	.topicWeb{
+		margin-top:5%;
+	}
+	.graphicsDiscriptions p,.webDiscriptions p,.webSampleDiscriptions p,.contactDiscriptions p,.aboutMeDiscription p {
+		font-size:16px;
+	}
+	.graphicsDiscriptions  p:first-letter,.webDiscriptions  p:first-letter,.webSampleDiscriptions p:first-letter,.aboutMeDiscription p:first-letter,.contactDiscriptions p:first-letter{
+		font-size:20px;
+	}
+	.graphicsDiscriptions p span,.webDiscriptions p span,.webDiscriptions span,.contactDiscriptions span {
+		font-size:18px;
+	}
+	.specialLineGraphic,.specialLineGraphicEnd{
+		height:0.15vw;
+	}
+	.specialLine2 span, .specialLineGraphic span {
+		font-size: 1.5vw;
+	}
+	.aboutMeContainer,.discriptionsGraphicsContainer,.developerContainer,.contactDiscriptions {
+		width:80%;
+	}
+	.discriptionswebSample{
+		padding-top:2%;
+		font-size:11px;
+	}
+	.discriptionswebSample h3{
+		font-size:17px;
+		margin-bottom:0%;
+	}
+	.linkSample{
+		width:70%;
+	}
+	.linkSample a {
+		font-size:10px;
+	}
+	.linkSample a:first-letter{
+		font-size:12px;
+	}
+	.specialBox{
+		width:25%;
+		font-size:15px;
+	}
+	.topicSpecialBox{
+		font-size:16px;
+	}
+	.discriptionsSpecialBox{
+		font-size:13px;
+	}
+	.discriptionsSpecialBox span {
+		font-size:16px;
+	}
+	.showInfo{
+		top:34%;
+	}
+	.rightButton,.leftButton{
+		font-size:35px;
+	}
+	.graphicsDiscriptions ul li, .webDiscriptions ul li{
+		margin-left:0%;
+	}
+	.fa-question-circle {
+		font-size: 18px;
+	}
+	.explanation-layout,.explanation-banner,.explanation-logo,.explanation-info,.explanation-leaflet,.explanation-paper{
+		background:rgb(0,0,0,0.6);
+	}
+	.topicGraphicSample h3{
+		right:-10%;
+	}
+	.form{
+		width:80%;
+	}
+	.form textarea {
+		height: 20vw;
+	}
+	.checkbox-cnt span {
+		font-size: 10px;
+	}
+	.form label {
+		font-size: 10px;
+	}
+	.contactDetails a {
+		font-size: 1.6vw;
+	}
+	.contactDetails span {
+		font-size: 3vw;
+	}
+	.form .submit-btn{
+		font-size:1.6vw;
+	}.field-error {
+		font-size: 1.8vw;
+	}
+	.footer {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+	.footer ol li ul li a {
+		font-size:12px;
+	}
+	.footer ol li ul {
+		padding-left:20px;
+	}
+	.footerCredits{
+		font-size:12px;
+	}
+	.technologyLogo img{
+		width:6vw;
+	}
+	.closeButtonMiniInfo{
+		display:none;
+	}
+}
+@media all and (min-width:576px) and (max-width:767px){
+	.topic{
+		width:30%;
+	}
+	.topic h2, .topicWeb h2, .topicWebSample h2, .topicGraphic h2, .topicGraphicSample h2  {
+		font-size:3vw;
+	}
+	.pictureContainer {
+		max-width: 230px;
+		max-height: 55vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.aboutMeContainer{
+		width:85%;
+	}
+	.aboutMeDiscription p {
+		font-size:16px;
+	}
+	.imageDiscription {
+		top: 61%;
+		width: 16%;
+		height: 14vw;
+	}
+	.topicWeb {
+		max-width: 45%;
+	}
+	.discriptionsGraphicsContainer, .developerContainer {
+		width: 85%;
+	}
+	.graphicsDiscriptions p, .webDiscriptions p, .webSampleDiscriptions p {
+		font-size: 16px;
+	}
+	.graphicsDiscriptions p span, .webDiscriptions p span, .webDiscriptions span {
+		font-size: 18px;
+	}
+	.webpictureContainer{
+		display:none;
+	}
+	.look{
+		display:none !important;
+	}
+	.webSample{
+		margin-left:1%;
+		margin-top:7%;
+	}
+	.topicWebSample {
+		width: 48%;
+	}
+	.topicWebSample h3, .topicGraphicSample h3 {
+		font-size: 2.7vw;
+		top: -26%;
+		right: 3%;
+	}
+	.webSampleDiscriptions{
+		padding-right:10%;
+	}
+	.sampleContainer{
+		height:35vw; 
+	}
+	.specialBox{
+		width:33%;
+		top:10%;
+	}
+	.discriptionsSpecialBox {
+		font-size: 13px;
+		margin-bottom:35%;
+	}
+	.discriptionsSpecialBox span{
+		font-size:15px;
+	}
+	.specialLine2 span, .specialLineGraphic span {
+		font-size: 2vw;
+	}
+	.rightButton,.leftButton{
+		font-size:4vw;
+		margin-top:15%;
+	}
+	.topicSpecialBox {
+		font-size: 2.5vw;
+	}
+	.specialBoxFixedEnd {
+		top: 78% !important;
+	}
+	.fa-question-circle {
+		font-size: 2.6vw;
+	}
+	.closeButtonImage,.rightButtonImage,.leftButtonImage{
+		font-size:7vw;
+	}
+	.leftButtonGraphic{
+		top:100% !important;
+		left:30% !important;
+	}
+	.rightButtonGraphic{
+		top:100% !important;
+		right:30% !important;
+	}
+	.closeButtonImage:hover,.rightButtonImage:hover,.leftButtonImage:hover{
+		font-size:7vw;
+	}
+	.insideGalleryBackground{
+		width: 100%;
+		margin-left: 0%;
+		display:block;
+	}
+	.leafletImage{
+		width: 92%;
+		height: 112vw;
+	}
+	.contactDiscriptions{
+		width:80%;
+	}
+	.contactDiscriptions p {
+		font-size:13px;
+	}
+	.contactDiscriptions p:first-letter {
+		font-size:16px;
+	}
+	.contactDiscriptions span{
+		font-size:15px;
+	}
+	.form{
+		width:90%;
+	}
+	.form label {
+		font-size:10px;
+	}
+	.form label:first-letter{
+		font-size:12px;
+	}
+	.form .submit-btn {
+		font-size: 15px;
+	}
+	.checkbox-cnt span {
+		font-size: 12px;
+	}
+	.form .checkbox-cnt .state {
+		width: 14px;
+		height: 14px;
+	}
+	.form .checkbox-cnt {
+		font-size: 14px;
+		padding-left:10%;
+	}
+	.contactDetails span {
+		font-size: 5vw;
+	}
+	.contactDetails a {
+		font-size: 10px;;
+	}
+	.footer ol li a {
+		font-size: 14px;
+	}
+	.footer ol li ul li a {
+		font-size:12px;
+	}
+	.footer ol li ul {
+		padding-left:10px;
+	}
+	.footerCredits{
+		font-size:12px;
+	}
+	.technologyLogo img{
+		width:6vw;
+	}
+	.specialLineGraphic, .specialLineGraphicEnd {
+		height: 0.4vw;
+	}
+	.webNavigation span,.aboutMeNavigation span,.graphicNavigation span {
+		font-size: 3.5vw;
+	}
+	.headsContainer{
+		width:100%;
+		top:40%;
+		position:absolute;
+		left:0%;
+	}
+	.leftHeadContainer{
+		left:17%;
+	}
+	.logoContainer{
+		margin-left:13%;
+	}
+	.logoName{
+		bottom:-45%;
+	}
+	.secondLineNavigation{
+		left:31.5%;
+		width:38%;
+		height:19vw;		
+	}
+	.leftSideMenu{
+		width:27vw;
+	}
+	.leftSideMenu h1{
+		font-size:3vw;
+	}
+	.rightSideMenu{
+		width:15vw;
+	}
+	.rightSideMenu h1{
+		font-size:3vw;
+	}
+	#text{
+		font-size:13px;
+	}
+	.icon{
+		font-size:3.4vw!important;
+	}
+	.closeButtonMiniInfo{
+		display:none;
+	}
+}
+@media all and (min-width:200px) and (max-width:575px){
+	
+	.headsContainer{
+		width:100%;
+		top:40%;
+		position:absolute;
+		left:0%;
+	}
+	.leftHeadContainer{
+		left:17%;
+	}
+	.logoContainer{
+		margin-left:13%;
+	}
+	.logoName{
+		bottom:-45%;
+	}
+	.secondLineNavigation {
+		left: 19.5%;
+		width: 60%;
+		height: 20%;		
+	}
+	.leftSideMenu{
+		width:27vw;
+	}
+	.leftSideMenu h1{
+		font-size:3vw;
+	}
+	.rightSideMenu{
+		width:15vw;
+	}
+	.rightSideMenu h1{
+		font-size:3vw;
+	}
+	.rightSideMenu h1:first-letter,.leftSideMenu h1:first-letter{
+	font-size:3.5vw;
+}
+	#text{
+		font-size:12px;
+	}
+	.icon{
+		font-size:3.4vw!important;
+	}
+	.graphGraphicsContainer,.webGraphicsContainer {
+		width: 70%;
+		top: 10%;
+		height: 80%;
+	}
+	.topic {
+		width: 35%;
+	}
+	.topic h2, .topicWeb h2, .topicWebSample h2, .topicGraphic h2, .topicGraphicSample h2 {
+		font-size: 15px;
+	}
+	.topic h2:first-letter, .topicWeb h2:first-letter, .topicWebSample h2:first-letter, .topicGraphic h2:first-letter, .topicGraphicSample h2:first-letter {
+		font-size: 19px;
+	}	
+	.pictureContainer {
+		max-width: 230px;
+		max-height: 55vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.aboutMeContainer{
+		width:85%;
+	}
+	.aboutMeDiscription p {
+		font-size:16px;
+	}
+	.imageDiscription {
+		top: 61%;
+		width: 16%;
+		height: 14vw;
+		z-index:2;
+	}
+	.topicWeb {
+		max-width: 68%;
+		margin-top:5%;
+	}
+	.topicContainer img {
+		width: 16%;
+	}
+	.discriptionsGraphicsContainer, .developerContainer {
+		width: 85%;
+	}
+	.graphicsDiscriptions p, .webDiscriptions p, .webSampleDiscriptions p {
+		font-size: 16px;
+	}
+	.graphicsDiscriptions p span, .webDiscriptions p span, .webDiscriptions span {
+		font-size: 18px;
+	}
+	.webpictureContainer{
+		display:none;
+	}
+	.look{
+		display:none !important;
+	}
+	.discriptionsGraphicsContainer, .developerContainer {
+		width: 100%;
+	}
+	.webSample{
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:13%;
+	}
+	.topicWebSample {
+		width: 68%;
+	}
+	.topicWebSample h3 {
+		font-size:13px;
+		top: -46%;
+		right: 3%;
+	}
+	.topicGraphicSample h3{
+		font-size:13px;
+		top: -46%;
+		right:-25%;
+	}
+	.webSampleDiscriptions{
+		padding-right:10%;
+	}
+	.sampleContainer{
+		height:51vw; 
+	}
+	.box:hover .graphicTechnology {
+		left: -18%;
+	}
+	.linkSample a {
+		font-size:15px;
+	}
+	.linkSample a:first-letter{
+		font-size:17px;
+	} 
+	.specialBox{
+		display:none;
+	}
+	.discriptionsSpecialBox {
+		font-size: 13px;
+		margin-bottom:35%;
+	}
+	.discriptionsSpecialBox span{
+		font-size:15px;
+	}
+	.specialLine{
+		margin-bottom:5%;
+	}
+	.specialLine2 span, .specialLineGraphic span {
+		font-size: 12px;
+	}
+	.rightButton,.leftButton{
+		font-size:4vw;
+		margin-top:15%;
+	}
+	.topicSpecialBox {
+		font-size: 2.5vw;
+	}
+	.specialBoxFixedEnd {
+		top: 78% !important;
+	}
+	.fa-question-circle {
+		font-size: 2.6vw;
+	}
+	.closeButtonImage,.rightButtonImage,.leftButtonImage{
+		font-size:7vw;
+	}
+	.leftButtonGraphic{
+		top:100% !important;
+		left:30% !important;
+	}
+	.rightButtonGraphic{
+		top:100% !important;
+		right:30% !important;
+	}
+	.closeButtonImage:hover,.rightButtonImage:hover,.leftButtonImage:hover{
+		font-size:7vw;
+	}
+	.insideGalleryBackground{
+		width: 100%;
+		margin-left: 0%;
+		display:block;
+	}
+	.topicGraphic,.topicGraphicSample{
+		width:23%;
+	}
+	.graphicsDiscriptions ul {
+		padding-left:0%;
+	}
+	.graphicsDiscriptions ul li p,.graphicsDiscriptions ul li p:hover {
+		height: 30px;
+		line-height: normal;
+		font-size:16px;
+	}
+	.fa-question-circle {
+		display:none;
+	}
+	.exampleContainer, .exampleContainerLogo, .exampleContainer2, .exampleContainer3, .exampleContainerCards {
+		margin-right: 2%;
+	}
+	.sampleGraphics {
+		width: 90%;
+	}
+	.leafletImage{
+		width: 92%;
+		height: 112vw;
+	}
+	.contactDiscriptions{
+		width:80%;
+	}
+	.contactDiscriptions p {
+		font-size:13px;
+	}
+	.contactDiscriptions p:first-letter {
+		font-size:16px;
+	}
+	.contactDiscriptions span{
+		font-size:15px;
+	}
+	.form{
+		width:90%;
+	}
+	.form label {
+		font-size:10px;
+	}
+	.form label:first-letter{
+		font-size:12px;
+	}
+	.form .submit-btn {
+		font-size: 15px;
+	}
+	.checkbox-cnt span {
+		font-size: 12px;
+	}
+	.form .checkbox-cnt .state {
+		width: 14px;
+		height: 14px;
+	}
+	.form .checkbox-cnt {
+		font-size: 14px;
+		padding-left:10%;
+	}
+	.contactDetails span {
+		font-size: 5vw;
+	}
+	.contactDetails a {
+		font-size: 10px;;
+	}
+	.footer ol li a {
+		font-size: 14px;
+	}
+	.footer ol li ul li a {
+		font-size:12px;
+	}
+	.footer ol li ul {
+		padding-left:10px;
+	}
+	.footerCredits{
+		font-size:12px;
+	}
+	.technologyLogo img{
+		width:6vw;
+	}
+	.specialLineGraphic, .specialLineGraphicEnd {
+		height: 0.4vw;
+	}
+	.aboutMeContainer:nth-child(1) {
+		width: 100%;
+	}
+	.contactSpecialBox {
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.contactDetails{
+		width:100%;
+	}
+	.contactDetails a {
+    font-size: 15px;
+	}
+	.miniSpecialBox{
+		position: fixed;
+		top: 20%;
+		left: 10%;
+		z-index: 3;
+		width: 80%;
+		background: rgba(81, 74, 74, 0.8);
+		max-height: 450px;
+	}
+	.showInfo{
+		top:49%;
+	}
+	.topicSpecialBox {
+		font-size: 21px;
+	}
+	.showGraphic{
+		top:15%;
+	}
+	.rightButton, .leftButton {
+		font-size: 50px;
+		margin-top:22%;
+	}
+	.closeButtonMiniInfo{
+		display: block;
+		width: 100%;
+		background: #29ba1a;
+		position: absolute;
+		bottom: 0;
+		text-align: center;
+		padding-top: 0%;
+		border-top-style: solid;
+		border-width: thin;
+		border-radius: 5%;
+		border-color: #fff;
+		cursor:pointer;
+	}
+	.closeButtonMiniInfo p {
+		font-family: 'Anton', sans-serif;
+		letter-spacing: 1px;
+		font-size: 21px;
+		text-align: center;
+		text-transform:uppercase;
+		color:#fff;
+		margin-top:3%;
+	}
+}
