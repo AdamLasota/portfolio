@@ -96,6 +96,7 @@ $(document).ready(function(){
 		$(window).scroll(function(){
 			scrollPosition=$(window).scrollTop();
 			screenHeight = screen.height;	
+			
 			showObjectOther();
 			showPicture();
 			showObject();
@@ -127,7 +128,7 @@ $(document).ready(function(){
 		$(".animation").addClass("show").removeClass("hidden animated hinge");
 			}
 	else{
-		var visableObject = screenHeight * 60 / 100;
+		var visableObject = screenHeight * 80 / 100;
 		var offsetAnimationObject=$(".animation").eq(selectAnimationObject).offset();	
 		if(selectAnimationObject < numberOfAnimation){ 
 			if (offsetAnimationObject.top - visableObject <= scrollPosition){
@@ -154,7 +155,7 @@ $(document).ready(function(){
 		$(".animation2nd").addClass("show").removeClass("hidden animated flipOutX");
 			}
 	else{
-		var visableObject = screenHeight * 70 / 100;
+		var visableObject = screenHeight * 80 / 100;
 		var offsetAnimationObject=$(".animation2nd").eq(selectAnimationObject2nd).offset();
 		var checkClass=$(".animation2nd").eq(0).attr("id");
 		if(selectAnimationObject2nd < numberOfAnimation2nd){ 
@@ -287,7 +288,7 @@ $(document).ready(function(){
 		}else if (whichGallery =="cards"){
 			howManyId= $(".exampleContainerCards").find ("img").length;
 		}else if (whichGallery =="photo"){
-			howManyId= $(".exampleContainer3").find ("img").length -3;
+			howManyId= $(".exampleContainer3").find ("img").length -4;
 		}
 		var numberOfImage = parseInt(selectedImage);
 		if (selectedImage <= howManyId -1){
@@ -335,7 +336,7 @@ $(document).ready(function(){
 		}else if (whichGallery =="cards"){
 			howManyId= $(".exampleContainerCards").find ("img").length;
 		}else if (whichGallery =="photo"){
-			howManyId= $(".exampleContainer3").find ("img").length -3;
+			howManyId= $(".exampleContainer3").find ("img").length -4;
 		}
 		var numberOfImage = parseInt(selectedImage);
 		if (selectedImage > 1){
@@ -391,7 +392,6 @@ $(document).ready(function(){
 	 $(".galleryBanner").click(function(empty){
 		empty.preventDefault();
 		 whichGallery="banner";
-		 var screenWidth = $(window).width();
 		 selectedImage = $(this).attr("id");
 		 $(document.body).append('<div class="galleryBackground"></div>')
 		 $(".sampleGrpahics").append('<div class="buttonBorder"></div>')
