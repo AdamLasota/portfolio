@@ -17,6 +17,7 @@ $(document).ready(function(){
 		showPicture();
 		showObject();
 		showObject2nd();
+		showcookie();
 	$('a[href*="#"]').click(scroll);
 	$(".animation").addClass("hidden");
 	$(".animation2nd").addClass("hidden");
@@ -481,6 +482,37 @@ $(document).ready(function(){
 			$(".miniNavigationFixedGraphic ol").addClass("hideNavigation")
 			$(".navigationFixedGraphicButton").css("display","block");
 			$(".navigationFixedGraphicButtonClose").css("display","none");
+	});
+	//============================ Cookie ===================
+	
+	function showcookie(){
+		if($.cookie != 'true') {
+			$(document.body).append('<div class="coockieBackgroundWebSite"></div>');
+			$(".coockieBackgroundWebSite").append('<div class="cookieTopic"></div>');
+			$(".cookieTopic").append('<h5></h5>');
+			$(".cookieTopic h5").html('<i class="fas fa-cookie-bite"></i>')
+			$(".cookieTopic h5").append("polityka prywatności")
+			$(".cookieTopic h5").append('<i class="fas fa-cookie-bite"></i>')
+			$(".coockieBackgroundWebSite").append('<div class="cookieDiscriptions"></div>');
+			$(".cookieDiscriptions").append('<p></p>');
+			$(".cookieDiscriptions p").text("Ta strona wykorzystuje pliki cookie.Używam informacji zapisanych za pomocą plików cookies w celu zapewnienia maksymalnej wygody w korzystaniu z mojej strony. Z plików tych mogą też korzystać współpracujące ze mną firmy badawcze oraz monitorujące aktywnośc na stronie. Jeśli nie wyrażasz zgody, możesz wyłączyć zapiswyanie plików cookie w ustawieniach swojej przeglądarki");
+			$(".cookieDiscriptions").append('<p></p>');
+			$(".cookieDiscriptions p").eq(1).text("Zgodnie z postanowieniami RODO Informuję, że kontaktując się ze mną udostępniasz mi swoje dane kontaktowe. Nie gromadzę tych informacji ani nie udostępniam ich osobom trzecim. Po zakończonej współpracy owe Dane zostaną usuniętę. Podczas trwania naszej współpracy będą one przetrzymywane na moim kącie mailowym.");
+			$(".coockieBackgroundWebSite").append('<div class="cookieButton"></div>');
+			$(".cookieButton").append("<span> rozumiem i zgadzam się </span>");
+			$(".coockieBackgroundWebSite").animate({
+				height:"50%"
+			},2000)
+		}
+	};
+	$(".cookieButton").click(function(){
+		$(".coockieBackgroundWebSite").animate({
+			height:"0%"
+		},2000)
+		setTimeout(function(){
+	$(".coockieBackgroundWebSite").remove();
+		},2000)
+    $.cookie(true);		
 	});
 });
 
